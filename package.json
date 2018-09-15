@@ -1,0 +1,25 @@
+{
+  "name": "continous-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoRolim/continous-integration.git"
+  },
+  "author": "rodrigoRolim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigoRolim/continous-integration/issues"
+  },
+  "homepage": "https://github.com/rodrigoRolim/continous-integration#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0"
+  }
+}
