@@ -4,6 +4,6 @@ node_js:
 cache:
   directories:
     - "node_modules"
-deploy:
-  - provider: heroku
-    api_key: "pgCksdFIa7e73GJ-Z1rmgQ"
+# deploy:
+#   - provider: heroku
+#     api_key: "pgCksdFIa7e73GJ-Z1rmgQ"
