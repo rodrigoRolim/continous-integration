@@ -1,9 +1,9 @@
 const express = require('express');
 
 const app = express();
-
+app.set('view engine', 'ejs')
 app.get('/', (req, res) => {
-  res.send('ci with travis');
+  res.render('index');
 });
 
 const server = app.listen(3000, () => {

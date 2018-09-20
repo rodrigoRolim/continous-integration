@@ -19,6 +19,7 @@
   "homepage": "https://github.com/rodrigoRolim/continous-integration#readme",
   "dependencies": {
     "chai": "^4.1.2",
+    "ejs": "^2.6.1",
     "express": "^4.16.3",
     "mocha": "^5.2.0"
   }
